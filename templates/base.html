@@ -1,0 +1,28 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{% block title %}{% endblock %}</title>
+<link rel="stylesheet" href="static/style.css">
+</head>
+<body>
+<header>
+<h1>Stock Comparison</h1>
+<nav>
+<a href="/">Home</a>
+<a href="/about">About</a>
+</nav>
+</header>
+
+{% block content %}{% endblock %}
+
+<footer>
+<p>Copyright &copy; 2023 Stock Comparison App</p>
+</footer>
+</body>
+</html>
+
+
